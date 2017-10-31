@@ -10,7 +10,6 @@ public class UserController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String homepage() {
 		System.out.println("#### ####");
-		
 		return "index.html";
 		
 	}
